@@ -1,11 +1,11 @@
 import { Component } from "./Component";
 import { greeting } from "./greeting";
+import { CurseDisponibileView } from '../views/CurseDisponibile'
 
 export const App: view = ({ greeting = observe.greeting }) => (
-  <div>
-    <div>{greeting}</div>
-    <Component name="a" />
-  </div>
+  <>
+    <CurseDisponibileView />
+  </>
 );
 
-App.producers([greeting]);
+//App.producers([greeting]);
