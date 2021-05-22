@@ -10,6 +10,7 @@ const app = engine({
       a: "this is a",
       b: "this is b",
     },
+    details: false
   },
   use: [
     render(<App />, "#app", {

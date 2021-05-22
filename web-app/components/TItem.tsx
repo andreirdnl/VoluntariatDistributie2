@@ -1,31 +1,28 @@
 import { From } from './From'
 import { To } from './To'
-
-type external = {
-    name: keyof State["item"];
-  };
+import { TItemDescription as TableItemDescription } from './TItemDescription'
   
-  type props = {
-    item: State["item"][keyof State["item"]];
-  };
-  
-  export const TItem: view<external> = ({
-    item = observe.item[prop.name],
-  }: props) => {
+  export const TItem: view = ({
+    getDetails = observe.details,
+    setDetails = update.details,
+  }) => {
     return (
-      <div className='tableItem'>
-        <From />
-        <img src='' />
-        <To />
-        <div className="when">
-          <div className="whenTitle">Adaugat</div>
-          <div className="whenValue">14 mai</div>
+      <div className="itemContainer">
+        <div className="tableItem">
+          <From />
+          <img src='' />
+          <To />
+          <div className="when">
+            <div className="whenTitle">Adaugat</div>
+            <div className="whenValue">14 mai</div>
+          </div>
+          <div className="distance">
+            <div className="distanceTitle">Abatere traseu</div>
+            <div className="distanceValue">3 km</div>
+          </div>
+          <button className="moreDetails" onClick={()=>setDetails.set(!getDetails)}>Vezi Cursa</button>
         </div>
-        <div className="distance">
-          <div className="distanceTitle">Abatere traseu</div>
-          <div className="distanceValue">3 km</div>
-        </div>
-        <button className="moreDetails">Vezi Cursa</button>
+        {getDetails&& <TableItemDescription />}
       </div>
     )
   };
