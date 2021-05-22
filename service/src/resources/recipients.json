@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Lioara Ungureanu",
+    "email": "Lioara.Ungureanu0@gmail.com",
+    "phone": "0765823582",
+    "streetAddress": "Bulevardul Gheorghiu 718",
+    "city": "Shreveport",
+    "imageUrl": "http://placeimg.com/400/400/people",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["pc"]
+  },
+  {
+    "name": "Petrișor Muresan Sr.",
+    "email": "Petrior58@yahoo.com",
+    "phone": "0707697629",
+    "streetAddress": "Aleea Chirila 457",
+    "city": "Sierra Vista",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Zamfir Nastase Sr.",
+    "email": "Zamfir.NastaseSr.@yahoo.com",
+    "phone": "0774579880",
+    "streetAddress": "Intrarea Niculae 2369",
+    "city": "St. Peters",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Aurica Milea",
+    "email": "Aurica.Milea9@gmail.com",
+    "phone": "0771874881",
+    "streetAddress": "Aleea Ignacio 28621",
+    "city": "Lawrence",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Lelia Mihai",
+    "email": "Lelia72@yahoo.com",
+    "phone": "0721581250",
+    "streetAddress": "Bulevardul Serenity 60614",
+    "city": "Smyrna",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Ionela Dumitrescu",
+    "email": "Ionela_Dumitrescu@yahoo.com",
+    "phone": "0783715066",
+    "streetAddress": "Bulevardul Iosif 8967",
+    "city": "Wilmington",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Corneliu Coman",
+    "email": "Corneliu_Coman@yahoo.com",
+    "phone": "0727401726",
+    "streetAddress": "Bulevardul Israel 654",
+    "city": "Columbus",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Adelin Danila",
+    "email": "Adelin36@hotmail.com",
+    "phone": "0797096462",
+    "streetAddress": "Intrarea Pana 4048",
+    "city": "Meriden",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Ruxandra Olariu",
+    "email": "Ruxandra.Olariu34@gmail.com",
+    "phone": "0734525952",
+    "streetAddress": "Intrarea Clinton 191",
+    "city": "Gilbert",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  },
+  {
+    "name": "Fabia Toader",
+    "email": "Fabia_Toader38@hotmail.com",
+    "phone": "0759971238",
+    "streetAddress": "Bulevardul Lilly 74312",
+    "city": "Spokane",
+    "imageUrl": "http://placeimg.com/400/400/people"
+  }
+]
