@@ -25,6 +25,7 @@ type external = {
           <div className="distanceTitle">Abatere traseu</div>
           <div className="distanceValue">3 km</div>
         </div>
+        <button className="moreDetails">Vezi Cursa</button>
       </div>
     )
   };
