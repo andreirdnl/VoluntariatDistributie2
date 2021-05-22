@@ -4,5 +4,6 @@ export type State = {
   item: {
     [k: string]: string;
   };
-  details: boolean
+  details: []
+  finishedItem: {}
 };

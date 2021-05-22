@@ -19,11 +19,11 @@ type external = {
                 <FilterActionBar />
             </div>
             <div className="tableContent">
-                <TableItem />
-                <TableItem />
-                <TableItem />
-                <TableItem />
-                <TableItem />
+                <TableItem itemIndex={0}/>
+                <TableItem itemIndex={1}/>
+                <TableItem itemIndex={2}/>
+                <TableItem itemIndex={3}/>
+                <TableItem itemIndex={4}/>
             </div>
         </div>
     )

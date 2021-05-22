@@ -1,18 +1,12 @@
 import { Table } from '../components/Table'
 import { LocationMap } from '../components/LocationMap'
-
-type external = {
-    name: keyof State["item"];
-  };
+import { Multumim } from './Multumim'
   
-  type props = {
-    item: State["item"][keyof State["item"]];
-  };
-  
-  export const CurseDisponibileView: view<external> = ({
-    item = observe.item[prop.name],
-  }: props) => {
+  export const CurseDisponibileView: view = ({
+    finishedItem = observe.finishedItem,
+  }) => {
     return (
+      finishedItem ? <Multumim item = {finishedItem}/> :
       <div>
         <div className="pageTitle">Curse Disponibile</div>
         <div className="pageTitleInfo">Urmatoarele curse sunt disponibile pentru a livra donatii</div>

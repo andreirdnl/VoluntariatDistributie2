@@ -3,8 +3,8 @@ import { To } from './To'
 import { TItemDescription as TableItemDescription } from './TItemDescription'
   
   export const TItem: view = ({
-    getDetails = observe.details,
-    setDetails = update.details,
+    getDetails = observe.details[prop.itemIndex],
+    setDetails = update.details[prop.itemIndex],
   }) => {
     return (
       <div className="itemContainer">

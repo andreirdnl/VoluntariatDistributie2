@@ -1,10 +1,10 @@
-import { From } from './From'
-import { To } from './To'
 import { Donator } from './Donator'
 import { Beneficiar } from './Beneficiar'
 import { Donatie } from './Donatie'
   
-  export const TItemDescription: view = ({}) => {
+  export const TItemDescription: view = ({
+      finishedItem = update.finishedItem
+  }) => {
     return (
       <div className="itemDescription">
         <div className="people">
@@ -13,7 +13,7 @@ import { Donatie } from './Donatie'
           <Beneficiar />
         </div>
         <Donatie />
-        <button className="accept">{`Accepta Cursa >`}</button>
+        <button className="accept" onClick={()=>finishedItem.set('das')}>{`Accepta Cursa >`}</button>
       </div>
     )
   };
