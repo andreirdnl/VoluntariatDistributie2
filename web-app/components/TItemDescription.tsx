@@ -13,7 +13,7 @@ import { Donatie } from './Donatie'
           <Beneficiar />
         </div>
         <Donatie />
-        <button className="accept">${`Accepta Cursa >`}</button>
+        <button className="accept">{`Accepta Cursa >`}</button>
       </div>
     )
   };
