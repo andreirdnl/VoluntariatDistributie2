@@ -43,7 +43,7 @@ export const Table: view = ({
     }
   }
   console.log('sort',getDateSort,getDistanceSort)
-  const sortData = filterData.slice().sort((a,b) => {
+  let sortData = filterData.slice().sort((a,b) => {
     if(getDateSort != 'none'){
       let aDate = new Date(a.donation.createdAt).getTime();
       let bDate = new Date(b.donation.createdAt).getTime();
@@ -54,13 +54,13 @@ export const Table: view = ({
     if(getDistanceSort != 'none'){
       let aRoute = a.trip.distanceFromRoute
       let bRoute = b.trip.distanceFromRoute
-      console.log(getDistanceSort,aRoute-bRoute, bRoute-aRoute)
       if(getDistanceSort == 'ascending') return aRoute - bRoute
-      else if(getDateSort == 'descending') return bRoute - aRoute
+      else if(getDistanceSort == 'descending') return bRoute - aRoute
     }
     
     return
   })
+
   return (
     <>
       <ul data-ui="Trips--List" className={style.header}>
