@@ -8,5 +8,95 @@
     "images": [],
     "productType": "calculator",
     "createdAt": "2021-05-15"
+  },
+  {
+    "name": "canapea",
+    "description": "canapea vintage",
+    "sizeType": 2,
+    "weightType": 2,
+    "quantity": 1,
+    "images": [],
+    "productType": "canapea",
+    "createdAt": "2021-05-20"
+  },
+  {
+    "name": "boxe pc",
+    "description": "boxe pc de podea",
+    "sizeType": 1,
+    "weightType": 1,
+    "quantity": 1,
+    "images": [],
+    "productType": "boxa",
+    "createdAt": "2021-05-23"
+  },
+  {
+    "name": "aparat foto",
+    "description": "aparat de fotografiat digital",
+    "sizeType": 0,
+    "weightType": 0,
+    "quantity": 1,
+    "images": [],
+    "productType": "aparat foto",
+    "createdAt": "2021-05-11"
+  },
+  {
+    "name": "scaune markus",
+    "description": "2 scaune de birou de la ikea",
+    "sizeType": 1,
+    "weightType": 1,
+    "quantity": 2,
+    "images": [],
+    "productType": "scaun birou",
+    "createdAt": "2021-05-18"
+  },
+  {
+    "name": "telefon samsung A20",
+    "description": "telefon samsung functional, din 2019",
+    "sizeType": 20,
+    "weightType": 0,
+    "quantity": 1,
+    "images": [],
+    "productType": "telefon mobil",
+    "createdAt": "2021-05-19"
+  },
+  {
+    "name": "birou",
+    "description": "birou din lemn",
+    "sizeType": 2,
+    "weightType": 2,
+    "quantity": 1,
+    "images": [],
+    "productType": "birou",
+    "createdAt": "2021-05-10"
+  },
+  {
+    "name": "periute de dinti + pasta de dinti",
+    "description": "150 perechi de periuta de dinti si pasta",
+    "sizeType": 0,
+    "weightType": 0,
+    "quantity": 150,
+    "images": [],
+    "productType": "igiena orala",
+    "createdAt": "2021-05-21"
+  },
+  {
+    "name": "cutii masti faciale de protectie",
+    "description": "20 cutii de masti de protectie, multicolore",
+    "sizeType": 0,
+    "weightType": 0,
+    "quantity": 20,
+    "images": [],
+    "productType": "masca de protectie",
+    "createdAt": "2021-05-21"
+  },
+  {
+    "name": "15 seturi de rechizite",
+    "description": "15 seturi de rechizite. un set contine 10 pixuri, penar, set trigonometrie, 10 caiete matematica, 10 caiete dictando",
+    "sizeType": 0,
+    "weightType": 0,
+    "quantity": 15,
+    "images": [],
+    "productType": "rechizite",
+    "createdAt": "2021-05-22"
   }
 ]
