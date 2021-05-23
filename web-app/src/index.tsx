@@ -10,6 +10,9 @@ const app = engine({
       a: "this is a",
       b: "this is b",
     },
+    details: [],
+    finishedItem: null,
+    dataSet: null
   },
   use: [
     render(<App />, "#app", {

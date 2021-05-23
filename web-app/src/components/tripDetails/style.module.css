@@ -1,0 +1,106 @@
+.details {
+  padding: 16px;
+  padding-top: 48px;
+  border-top: 1px solid #E1E1E1;
+}
+.details [role="row"] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.col1 {
+  width: 33.333333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 16px;
+}
+.col2 {
+  width: 33.333333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 16px;
+  position: relative;
+  border-radius: 4px;
+}
+.col3 {
+  width: 33.333333%;
+  background: #f6f6f6;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.col3 img {
+  position: absolute;
+}
+.person,
+.donation {
+  padding: 20px;
+  background: #f6f6f6;
+  border-radius: 4px;
+  position: relative;
+}
+.person h3,
+.donation h3 {
+  margin-top: 16px;
+}
+.avatar {
+  width: 66px;
+  height: 66px;
+  background: #f6f6f6;
+  box-sizing: content-box;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  border-radius: 9999px;
+  position: absolute;
+  left: 50%;
+  margin: -54px 0 0 -33px;
+}
+.beneficiary {
+  margin-top: 48px;
+}
+.contact li {
+  margin-top: 6px;
+}
+.icon {
+  width: 12px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 8px;
+}
+.icon svg {
+  display: inline-block;
+}
+.donation {
+  height: 100%;
+}
+.donation-details {
+  line-height: 1.625;
+}
+.description {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #E1E1E1;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
+.images {
+  background-color: #B62537;
+}
+.button-wrapper {
+  margin-top: 20px;
+  padding-bottom: 8px;
+  margin-left: 33.3%;
+  padding-right: 16px;
+  width: 33.333333%;
+}
+.button {
+  width: 100%;
+}

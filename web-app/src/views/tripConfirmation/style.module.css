@@ -1,0 +1,17 @@
+.hero {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #B62537;
+}
+.hero h1 {
+  font-weight: 400;
+  color: #218BCB;
+  color: #D05168;
+  font-size: 40px;
+  line-height: 54px;
+}
+.hero p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 140%;
+}

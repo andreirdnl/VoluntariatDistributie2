@@ -1,0 +1,19 @@
+@import (reference) '../../../node_modules/ve-ui-theme/dist/utilities.less'; 
+@import (reference) '../../../node_modules/ve-ui-theme/dist/mixins.less'; 
+@import (reference) '../../styles/humbler.less'; 
+
+.filters {
+   .absolute;
+   bottom: -110px;
+   .inline-flex;
+   .items-center;
+   .px-20;
+   .py-8;
+   background: #F9F9F9;
+   border: 1px solid #DFDFDF;
+   box-sizing: border-box;
+   border-radius: 34px;
+
+   button { .pl-16; .text-secondary; opacity: 0.7; }
+   button[aria-selected="true"] { .text-primary;  opacity: 1; }
+}

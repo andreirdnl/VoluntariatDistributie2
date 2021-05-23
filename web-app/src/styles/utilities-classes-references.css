@@ -1,0 +1,48 @@
+.text-base {
+  font-size: theme('fontSize.base.default');
+}
+.text-input {
+  font-size: theme('fontSize.input.default');
+}
+.text-h1 {
+  font-size: theme('fontSize.h1.default');
+}
+.text-h2 {
+  font-size: theme('fontSize.h2.default');
+}
+.text-h3 {
+  font-size: theme('fontSize.h3.default');
+}
+.text-h4 {
+  font-size: theme('fontSize.h4.default');
+}
+.text-h5 {
+  font-size: theme('fontSize.h5.default');
+}
+.text-h6 {
+  font-size: theme('fontSize.h6.default');
+}
+.text-base-mobile {
+  font-size: theme('fontSize.base.mobile');
+}
+.text-input-mobile {
+  font-size: theme('fontSize.input.mobile');
+}
+.text-h1-mobile {
+  font-size: theme('fontSize.h1.mobile');
+}
+.text-h2-mobile {
+  font-size: theme('fontSize.h2.mobile');
+}
+.text-h3-mobile {
+  font-size: theme('fontSize.h3.mobile');
+}
+.text-h4-mobile {
+  font-size: theme('fontSize.h4.mobile');
+}
+.text-h5-mobile {
+  font-size: theme('fontSize.h5.mobile');
+}
+.text-h6-mobile {
+  font-size: theme('fontSize.h6.mobile');
+}

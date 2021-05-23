@@ -1,0 +1,18 @@
+@import (reference) '../../../node_modules/ve-ui-theme/dist/utilities.less'; 
+@import (reference) '../../../node_modules/ve-ui-theme/dist/mixins.less'; 
+@import (reference) '../../styles/humbler.less'; 
+
+.navbar           { 
+   &              { .flex; .justify-between; }
+   [role="group"] { .pr-20; }
+}
+
+.logo    { .py-24; }
+.profile { .py-8; .flex; .flex-no-wrap; .items-center; .text-right; }
+.avatar  { .size(54px); box-sizing: content-box;  border: 4px solid #fff; .overflow-hidden; .rounded-full;}
+.name    { margin-bottom: 6px; font-weight: 600; font-size: 16px;  }
+
+.actions          { .flex; .flex-no-wrap; }
+.actions a        { .no-underline; .text-body;  }
+.actions a:hover  { .text-primary;  }
+.actions li + li  { .pl-8; .ml-8; border-left: 1px solid #ccc; } 

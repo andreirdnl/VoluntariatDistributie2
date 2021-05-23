@@ -1,0 +1,47 @@
+.trips {
+  padding-bottom: 64px;
+}
+.trips > div:nth-child(2n) {
+  border-radius: 8px;
+  background-color: #FBFBFB;
+}
+.header {
+  margin-top: 84px;
+  padding-bottom: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+  border-bottom: 1px solid #ddd;
+}
+.header li {
+  white-space: nowrap;
+}
+.header svg {
+  display: inline;
+}
+.col1 {
+  width: 33.333333%;
+  padding-left: 16px;
+}
+.col2 {
+  width: 33.333333%;
+  padding-left: 4px;
+}
+.col3 {
+  width: 120px;
+  margin-left: -4px;
+}
+.col3:hover,
+.col4:hover {
+  color: #218BCB;
+  color: #D05168;
+  cursor: pointer;
+}

@@ -1,0 +1,185 @@
+[data-tooltip] {
+  position: relative;
+}
+[data-tooltip]:before {
+  content: "";
+  position: absolute;
+  border-width: 1px;
+  border-style: solid;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border-width: 6px 6px 0 6px;
+  border-color: #444444 transparent transparent transparent;
+  z-index: 100;
+}
+[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  background-color: #444444;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  --font-size: 'h6';
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #FFF;
+  font-style: normal;
+  text-decoration: none;
+  opacity: 0;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+  width: max-content;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
+  width: -ms-max-content;
+  max-width: 400px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip]:after {
+    width: 400px;
+  }
+}
+[data-tooltip]:not([data-tooltip-align]):before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+[data-tooltip]:not([data-tooltip-align]):after {
+  left: 50%;
+  top: -6px;
+  transform: translateX(-50%) translateY(-100%);
+}
+[data-tooltip=""]:before,
+[data-tooltip=""]:after {
+  display: none;
+}
+[data-tooltip-align='top']::before {
+  left: 50%;
+}
+[data-tooltip-align='top']::after {
+  left: 50%;
+}
+[data-tooltip-align='right']::before {
+  left: 100%;
+  top: 50%;
+  margin-left: 1px;
+  transform: translatey(-50%) rotate(90deg);
+}
+[data-tooltip-align='right']::after {
+  margin-left: 12px;
+  left: 100%;
+  top: 50%;
+  transform: translateX(0%) translateY(-50%);
+}
+[data-tooltip-align='bottom']::before {
+  margin-top: 12px;
+  top: 100%;
+  transform: translateX(0%) translatey(-100%) rotate(-180deg);
+}
+[data-tooltip-align='bottom']::after {
+  margin-top: 12px;
+  top: 100%;
+  transform: translateX(-50%) translateY(0%);
+}
+[data-tooltip-align='left']::before {
+  left: 0;
+  top: 50%;
+  margin-left: -12px;
+  transform: translatey(-50%) rotate(-90deg);
+}
+[data-tooltip-align='left']::after {
+  margin-left: -12px;
+  left: 0;
+  top: 50%;
+  transform: translateX(-100%) translateY(-50%);
+}
+[data-tooltip-align='bottom-left']::before {
+  left: 0;
+  margin-left: -12px;
+  margin-top: 9px;
+  top: 100%;
+  transform: translateX(0) translateY(-100%) rotate(-180deg);
+}
+[data-tooltip-align='bottom-left']::after {
+  left: 0;
+  margin-top: 12px;
+  text-align: left;
+  top: 100%;
+}
+[data-tooltip-align="bottom-right"]::before {
+  right: 50%;
+  margin-right: -6px;
+  margin-top: 9px;
+  top: 100%;
+  transform: translateX(0) translateY(-100%) rotate(-180deg);
+}
+[data-tooltip-align="bottom-right"]::after {
+  right: 0;
+  margin-top: 12px;
+  text-align: left;
+  top: 100%;
+}
+[data-tooltip-align='top-right']::before {
+  left: 50%;
+  top: -6px;
+  transform: translateX(-50%);
+}
+[data-tooltip-align='top-right']::after {
+  top: -6px;
+  transform: translateY(-100%);
+  right: 0;
+  text-align: right;
+}
+[data-tooltip-size='xs']::after {
+  max-width: 60px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip-size='xs']::after {
+    width: 60px;
+  }
+}
+[data-tooltip-size='sm']::after {
+  max-width: 100px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip-size='sm']::after {
+    width: 100px;
+  }
+}
+[data-tooltip-size='md']::after {
+  max-width: 200px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip-size='md']::after {
+    width: 200px;
+  }
+}
+[data-tooltip-size='lg']::after {
+  max-width: 300px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip-size='lg']::after {
+    width: 300px;
+  }
+}
+[data-tooltip-size='xl']::after {
+  max-width: 400px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [data-tooltip-size='xl']::after {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  [data-tooltip]:hover::after,
+  [data-tooltip]:hover::before {
+    opacity: 1;
+  }
+}

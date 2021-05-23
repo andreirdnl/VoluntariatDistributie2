@@ -1,3 +1,5 @@
+import map from "../assets/map.png"
+
 type external = {
     name: keyof State["item"];
   };
@@ -6,9 +8,11 @@ type external = {
     item: State["item"][keyof State["item"]];
   };
   
-  export const To: view<external> = ({
+  export const LocationMap: view<external> = ({
     item = observe.item[prop.name],
   }: props) => {
-    return <div>To</div>;
+    return (
+        <img src={map} />
+    )
   };
   

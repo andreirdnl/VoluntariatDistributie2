@@ -1,0 +1,33 @@
+@import (reference) '../../node_modules/ve-ui-theme/dist/utilities.less'; 
+@import (reference) '../../node_modules/ve-ui-theme/dist/mixins.less'; 
+
+
+.button { 
+   .px-24;  
+   .rounded-4; 
+   .font-normal; 
+   .uppercase; 
+   height:48px; 
+   line-height: 48px; 
+   background-color: #D05168; 
+   font-size: 14px; 
+   color: #FFF; 
+   min-width: 128px;;
+}
+.button:hover {
+   .cursor-pointer;
+   background-color: darken(#D05168, 7%); 
+}
+
+.outline {
+   .button;
+   border: 1px solid #D05168;
+   color: #D05168;
+   background-color: transparent;
+
+}
+.outline:hover {
+   .cursor-pointer;
+   background-color: #F7E8EB; 
+}
+
