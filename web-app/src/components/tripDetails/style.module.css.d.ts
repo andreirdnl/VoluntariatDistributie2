@@ -13,6 +13,7 @@ declare namespace StyleModuleCssNamespace {
     donation: string;
     "donation-details": string;
     icon: string;
+    image: string;
     images: string;
     person: string;
   }

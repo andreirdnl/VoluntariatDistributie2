@@ -20,7 +20,7 @@ export const Donation: view = ({
       </div>
       <div className={style.images}>
         {images.length>0 &&
-        images.map((i, index)=><div key={'thumb' + index}><img src={i} /></div>)}
+        images.map((i, index)=><a href={i} target="_blank" className={style.image} key={'thumb' + index}><img src={i} /></a>)}
       </div>
     </div>
   )
