@@ -7,6 +7,7 @@
 }
 .header {
   margin-top: 84px;
+  padding-top: 12px;
   padding-bottom: 12px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -20,12 +21,24 @@
   text-transform: uppercase;
   letter-spacing: 0.055em;
   border-bottom: 1px solid #ddd;
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 .header li {
   white-space: nowrap;
 }
 .header svg {
   display: inline;
+}
+.header li[aria-sort="descending"] svg {
+  transform: rotate(180deg);
+}
+.header li[aria-sort="ascending"],
+.header li[aria-sort="descending"] {
+  color: #218BCB;
+  color: #D05168;
 }
 .col1 {
   width: 33.333333%;

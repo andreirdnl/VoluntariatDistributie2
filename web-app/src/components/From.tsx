@@ -14,7 +14,7 @@ export const From: view = ({
         </div>
         <div role="cell">
           <h4>{donation.name}</h4>
-          <div>
+          <div role="complementary">
             Greutate: {weights[donation.weightType]} kg
             <br/>
             Bucati: {donation.quantity}

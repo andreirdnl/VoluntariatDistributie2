@@ -54,8 +54,8 @@ export const Table: view = ({
     if(getDistanceSort != 'none'){
       let aRoute = a.trip.distanceFromRoute
       let bRoute = b.trip.distanceFromRoute
-      console.log(getDateSort,aRoute-bRoute, bRoute-aRoute)
-      if(getDateSort == 'ascending') return aRoute - bRoute
+      console.log(getDistanceSort,aRoute-bRoute, bRoute-aRoute)
+      if(getDistanceSort == 'ascending') return aRoute - bRoute
       else if(getDateSort == 'descending') return bRoute - aRoute
     }
     
@@ -67,10 +67,10 @@ export const Table: view = ({
           <li className={style.col1}>Donator</li>
           <li className={style.col2}>Beneficiar</li>
           <li className={style.col3} aria-sort={getDateSort} onClick={()=>dateSort(getDateSort)}>
-            Adaugat <SVGArrow />
+            Adaugat {['ascending', 'descending'].includes(getDateSort) ? <SVGArrow />: ''}
           </li>
           <li className={style.col4} aria-sort={getDistanceSort} onClick={()=>distanceSort(getDistanceSort)}>
-            Abatere traseu
+            Abatere traseu {['ascending', 'descending'].includes(getDistanceSort) ? <SVGArrow />: ''}
           </li>
       </ul>
       <div data-ui="Trips--List" className={style.trips}>

@@ -14,7 +14,7 @@ export const To: view = ({
         </div>
         <div role="cell">
           <h4>{recipient.name}</h4>
-          <div>
+          <div role="complementary">
             Adaugat de: <a href="">{recipient.ngoName}</a>
             <br/>
             Nevoi:&nbsp;
