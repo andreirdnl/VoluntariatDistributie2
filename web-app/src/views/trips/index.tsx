@@ -23,10 +23,7 @@ export const TripsView: view = ({
           Ridica o donatie pe care sa o livrezi celor nevoiasi.
         </p>
       </div>
-      <div className="container">
-        <Table data={getData}/>
-        <LocationMap />
-      </div>
+      <Table data={getData}/>
     </div>
   )
 };

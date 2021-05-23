@@ -1,23 +1,27 @@
-  export const Donation: view = ({
-    donation = prop.donation,
-  }) => {
-    const {name, description, sizeType, weightType, quantity, images, productType} = donation
-    return (
-        <>
-            <div className="donatieTitle">Donatie</div>
-            <div className="donatie">
-                <div className="donatieDetails">
-                    <div className="name">{name}</div>
-                    <div className="dimension">{sizeType}</div>
-                    <div className="weight">{weightType}</div>
-                    <div className="pieces">{quantity}</div>
-                </div>
-                <div className="donationImages">
-                  {images.length>0&&
-                  images.map(i=><img src={i} />)}
-                </div>
-            </div>
-        </>
-    )
-  };
-  
+import style from './tripDetails/style.module.css'
+
+export const Donation: view = ({
+  donation = prop.donation,
+}) => {
+  const {name, description, sizeType, weightType, quantity, images, productType} = donation
+  const weights = ['1-5', '5-10', '10-30']
+  const sizes = ['incape intr-o cutie (40x40x40 cm)', 'incape intr-un portbagaj', 'incape intr-o duba']
+  return (
+    <div data-ui="Donation" className={style.donation}>
+      <h2>Donatie</h2>
+      <h3>{name}</h3>
+      <div className={style['donation-details']}>
+        Dimensiuni: {sizes[sizeType]}<br/>
+        Greutate: {weights[weightType]} kg<br/>
+        Bucati: {quantity}
+      </div>
+      <div className={style.description}>
+        {description}
+      </div>
+      <div className={style.images}>
+        {images.length>0 &&
+        images.map((i, index)=><div key={'thumb' + index}><img src={i} /></div>)}
+      </div>
+    </div>
+  )
+};

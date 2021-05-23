@@ -962,8 +962,18 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f7f7f7;
 }
+html {
+  overflow-y: scroll;
+}
 svg {
   fill: currentColor;
+}
+h2 {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #999999;
 }
 h3 {
   color: #218BCB;

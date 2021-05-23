@@ -1,11 +1,18 @@
 declare namespace StyleModuleCssNamespace {
   export interface IStyleModuleCss {
+    avatar: string;
+    beneficiary: string;
     col1: string;
     col2: string;
     col3: string;
-    col4: string;
-    header: string;
-    trips: string;
+    contact: string;
+    description: string;
+    details: string;
+    donation: string;
+    "donation-details": string;
+    icon: string;
+    images: string;
+    person: string;
   }
 }
 

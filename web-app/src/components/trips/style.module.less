@@ -6,3 +6,17 @@
 .trips {
    > div:nth-child(2n) { .rounded-8; background-color: #FBFBFB; }
 }
+
+.header { .pb-12; .flex; .flex-no-wrap; .font-light; .uppercase; letter-spacing: 0.055em; border-bottom: 1px solid #ddd;}
+.header li { .whitespace-no-wrap; }
+.header svg { .inline }
+
+.col1 { .w-1\/3; .pl-16;}
+.col2 { .w-1\/3; .pl-4;}
+.col3 { width: 120px; .-ml-4; }
+
+.col3, .col4 {
+   &:hover {
+      .text-primary; .cursor-pointer;
+   }
+}

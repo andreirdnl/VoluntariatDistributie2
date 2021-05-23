@@ -15,3 +15,23 @@
   cursor: pointer;
   background-color: #c73650;
 }
+.outline {
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 48px;
+  line-height: 48px;
+  background-color: #D05168;
+  font-size: 14px;
+  color: #FFF;
+  min-width: 128px;
+  border: 1px solid #D05168;
+  color: #D05168;
+  background-color: transparent;
+}
+.outline:hover {
+  cursor: pointer;
+  background-color: #F7E8EB;
+}
