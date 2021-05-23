@@ -28,7 +28,9 @@ export const TripConfirmationView: view = ({
           <small>Stiai ca</small>
           In medie 60% din donatii gasesc un livrator
         </div> */}
-        <LocationMap trip={trip}/>
+        <div className={style.map}>
+          <LocationMap trip={trip}/>
+        </div>
       </div>
     </div>
   )

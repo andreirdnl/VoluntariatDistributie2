@@ -5,7 +5,7 @@
     "sizeType": 1,
     "weightType": 1,
     "quantity": 3,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/kncy7ohxl4832-RO/image;s=1000x700"],
     "productType": "calculator",
     "createdAt": "2021-05-15"
   },
@@ -15,7 +15,7 @@
     "sizeType": 2,
     "weightType": 2,
     "quantity": 1,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/tdqyt4m90oz9-RO/image;s=389x272", "https://frankfurt.apollo.olxcdn.com/v1/files/6j34p46uiaag-RO/image;s=3024x4032"],
     "productType": "canapea",
     "createdAt": "2021-05-20"
   },
@@ -25,7 +25,7 @@
     "sizeType": 1,
     "weightType": 1,
     "quantity": 1,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/w97oj8nzklvm1-RO/image;s=1000x700", "https://frankfurt.apollo.olxcdn.com/v1/files/qv8r13ttiu6v2-RO/image;s=1000x700", "https://frankfurt.apollo.olxcdn.com/v1/files/0i7gkopexasq2-RO/image;s=1000x700"],
     "productType": "boxa",
     "createdAt": "2021-05-23"
   },
@@ -35,7 +35,7 @@
     "sizeType": 0,
     "weightType": 0,
     "quantity": 1,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/pnkpeh0xoksw-RO/image;s=1000x750;r=180"],
     "productType": "aparat foto",
     "createdAt": "2021-05-11"
   },
@@ -45,7 +45,7 @@
     "sizeType": 1,
     "weightType": 1,
     "quantity": 2,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/blwghlz77bqz-RO/image;s=1000x700"],
     "productType": "scaun birou",
     "createdAt": "2021-05-18"
   },
@@ -55,7 +55,7 @@
     "sizeType": 0,
     "weightType": 0,
     "quantity": 1,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/c06x0387f1k31-RO/image;s=1000x700"],
     "productType": "telefon mobil",
     "createdAt": "2021-05-19"
   },
@@ -65,7 +65,7 @@
     "sizeType": 2,
     "weightType": 2,
     "quantity": 1,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/mvtj8iqhzoow1-RO/image;s=1000x700", "https://frankfurt.apollo.olxcdn.com/v1/files/aba4l51wbh9h1-RO/image;s=1000x700"],
     "productType": "birou",
     "createdAt": "2021-05-10"
   },
@@ -75,7 +75,7 @@
     "sizeType": 0,
     "weightType": 0,
     "quantity": 150,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/jepy6dg5nsjw1-RO/image;s=1000x700"],
     "productType": "igiena orala",
     "createdAt": "2021-05-21"
   },
@@ -85,7 +85,7 @@
     "sizeType": 0,
     "weightType": 0,
     "quantity": 20,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/dtn7lm87b55p2-RO/image;s=1000x700"],
     "productType": "masca de protectie",
     "createdAt": "2021-05-21"
   },
@@ -95,7 +95,7 @@
     "sizeType": 0,
     "weightType": 0,
     "quantity": 15,
-    "images": [],
+    "images": ["https://frankfurt.apollo.olxcdn.com/v1/files/k2h76q7f7bmb2-RO/image;s=1000x700", "https://frankfurt.apollo.olxcdn.com/v1/files/ad2niu2z7c403-RO/image;s=1000x700"],
     "productType": "rechizite",
     "createdAt": "2021-05-22"
   }

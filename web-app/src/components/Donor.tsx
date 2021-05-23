@@ -3,6 +3,7 @@ import { ReactComponent as SVGEmail } from '../assets/email.svg'
 import { ReactComponent as SVGPin } from '../assets/pin.svg' 
 import { ReactComponent as SVGPhone } from '../assets/phone.svg' 
 import { ReactComponent as SVGNGO } from '../assets/ngo.svg' 
+import placeholder from "../assets/profile-placeholder.png"
 
 export const Donor: view = ({
   donator = prop.donator,
@@ -11,7 +12,8 @@ export const Donor: view = ({
   return (
     <div data-ui="Donor" className={style.person}>
       <div className={style.avatar}>
-        <img src={imageUrl} />
+        { imageUrl && <img src={imageUrl} /> }
+        { !imageUrl && <img src={placeholder} /> }
       </div>
       <h2>Donator</h2>
       <h3>{name}</h3>

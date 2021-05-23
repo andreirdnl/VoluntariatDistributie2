@@ -67,6 +67,7 @@
   height: 66px;
   border-radius: 9999px;
   overflow: hidden;
+  background: #e1e1e1;
 }
 .person a {
   text-decoration: none;
@@ -131,4 +132,9 @@
   height: 66px;
   overflow: hidden;
   background-color: #E1E1E1;
+}
+.image img {
+  width: 86px;
+  height: 66px;
+  object-fit: cover;
 }

@@ -19,7 +19,7 @@ export const Trip: view = ({
         <To recipient={beneficiary}/>
         <div role="row" className={style.props}>
           <div className={style.date}>{donation.createdAt}</div>
-          <div className={style.sidetrack}>{trip.distanceFromRoute}</div>
+          <div className={style.sidetrack}>{trip.distanceFromRoute} km</div>
           <div role="cell">
             { getDetails 
               ? <button className={style2.outline} onClick={()=>setDetails.set(false)}>Inchide</button>
