@@ -54,8 +54,8 @@ export const Table: view = ({
     if(getDistanceSort != 'none'){
       let aRoute = a.trip.distanceFromRoute
       let bRoute = b.trip.distanceFromRoute
-      console.log(getDateSort,aRoute-bRoute, bRoute-aRoute)
-      if(getDateSort == 'ascending') return aRoute - bRoute
+      console.log(getDistanceSort,aRoute-bRoute, bRoute-aRoute)
+      if(getDistanceSort == 'ascending') return aRoute - bRoute
       else if(getDateSort == 'descending') return bRoute - aRoute
     }
     
