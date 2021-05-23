@@ -7,13 +7,13 @@ import style2 from '../../styles/button.module.css'
       finishedItem = update.finishedItem,
       data = observe.dataSet[prop.index]
   }) => {
-    const {donator,recipient,donation} = data
+    const {donor,beneficiary,donation} = data
     return (
       <div data-ui="TripDetails" className={style.details}>
         <div role="row">
           <div role="cell" className={style.col1}>
-            <Donor donator={donator}/>
-            <Beneficiary beneficiar={recipient}/>
+            <Donor donator={donor}/>
+            <Beneficiary beneficiar={beneficiary}/>
           </div>
           <div role="cell" className={style.col2}>
             <Donation donation={donation}/>

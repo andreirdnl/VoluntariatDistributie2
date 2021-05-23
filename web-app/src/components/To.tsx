@@ -3,6 +3,7 @@ import style from './trip/style.module.css'
 export const To: view = ({
   recipient = prop.recipient,
 }) => {
+  console.log('recipient',recipient.neededProducts)
   return (
     <div data-ui="To" className={style.person} > 
       <h3>{recipient.city}, {recipient.streetAddress}</h3>
@@ -17,7 +18,7 @@ export const To: view = ({
             <br/>
             Nevoi:&nbsp;
             <ul className={style.needs}>
-              {recipient.neededProducts.map( (need, index) => <li key={"needs" + index}>{need}</li> )}
+              {recipient.neededProducts && recipient.neededProducts.length > 0 && recipient.neededProducts.map( (need, index) => <li key={"needs" + index}>{need}</li> )}
             </ul>
           </div>
         </div>

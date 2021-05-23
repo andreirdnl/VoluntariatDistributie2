@@ -9,14 +9,15 @@ export const Trip: view = ({
   item = observe.dataSet[prop.itemIndex],
   index = prop.itemIndex
 }) => {
-  const {donator,recipient,donation} = item
+  const {donor,beneficiary,donation} = item
+  console.log('tralala',item)
   if(getDetails == undefined)
     setDetails.set(false)
   return (
     <div data-ui="Trip" aria-expanded={getDetails}  className={style.trip} >
       <div className={style.summary} >
-        <From donator={donator} donation={donation}/>
-        <To recipient={recipient}/>
+        <From donator={donor} donation={donation}/>
+        <To recipient={beneficiary}/>
         <div role="row" className={style.props}>
           <div className={style.date}>14 mai</div>
           <div className={style.sidetrack}>3 km</div>

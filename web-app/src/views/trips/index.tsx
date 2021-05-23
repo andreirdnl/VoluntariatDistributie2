@@ -3,14 +3,20 @@ import { TripConfirmationView } from '../tripConfirmation'
 import { initDataSet } from '../../../mock/genMock'
 import style from './style.module.css'  
 import banner from "../../assets/banner.png"
+import axios from 'axios';
   
 export const TripsView: view = ({
   finishedItem = observe.finishedItem,
   setData = update.dataSet,
   getData = observe.dataSet
 }) => {
+  axios.get(`http://localhost:3000/api/trips`)
+      .then(res => {
+        setData.set(res.data)
+        console.log(res.data)
+      })
   if(!getData){
-    setData.set(initDataSet())
+    //setData.set(initDataSet())
     return null
   }
   return (
@@ -31,7 +37,7 @@ export const TripsView: view = ({
         </div>
       </div>
       <div className="wrapper">
-        <Table data={getData}/>
+        <Table />
       </div>
     </div>
   )

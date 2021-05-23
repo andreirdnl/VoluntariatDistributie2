@@ -4,7 +4,7 @@ import { ReactComponent as SVGArrow } from '../../assets/arrow.svg'
 import style from './style.module.css' 
 
 export const Table: view = ({
-  dataSet = prop.data,
+  dataSet = observe.dataSet,
 }) => {
   return (
     <>
