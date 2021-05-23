@@ -1,10 +1,11 @@
 import { Component } from "./Component";
 import { greeting } from "./greeting";
-import { CurseDisponibileView } from '../views/CurseDisponibile'
+import { TripsView } from '../views/Trips'
+import './App.css'
 
 export const App: view = ({ greeting = observe.greeting }) => (
   <>
-    <CurseDisponibileView />
+    <TripsView />
   </>
 );
 

@@ -1,0 +1,104 @@
+@import (reference) "../../../../node_modules/ve-ui-theme/dist/utilities.less";
+@import (reference) "../Spinner/Spinner.less";
+
+.btn-hover(@prop, @color)   { @{prop}: darken(@color, 10%); }
+
+.btn { 
+  .inline-flex;
+  .items-center;
+  .justify-center;
+  .align-top;
+  .h-input; 
+  .px-button; 
+  .font-body; 
+  .text-input; 
+  .border-box; 
+  .border-0; 
+  .bg-transparent; 
+  .no-outline; 
+  .cursor-pointer;
+  .no-underline;
+  .relative;
+  
+  &:disabled        { .bg-light; .text-secondary; .cursor-not-allowed; }
+  &:disabled:hover  { .bg-light;  } 
+}
+
+.btn-link {
+  .btn; 
+  .text-primary; 
+  .font-body; 
+  .border-0;
+  .bg-transparent; 
+  .no-outline; 
+  .cursor-pointer;
+
+  &:hover { .btn-hover(color, @color-primary); }
+}
+
+.btn-inline {
+  .text-primary; 
+  .font-body; 
+  .border-0; 
+  .bg-transparent; 
+  .no-outline; 
+  .cursor-pointer;
+
+  &:hover { .btn-hover(color, @color-primary); }
+}
+
+
+@spinner-padding-y: 9px;
+
+.btn-spinner(@bg-color) {
+  &[data-loading="true"], 
+  &[data-loading="true"]:hover {color: rgba(0,0,0,0); cursor: wait; background-color: @bg-color; }
+  &[data-loading="true"] [data-ui="Spinner"] { 
+    .absolute;
+    height: @h-input - 2 * @spinner-padding-y;
+    top: @spinner-padding-y;
+    left: 50%;
+    margin-left: -0.5 * (@h-input - 2 * @spinner-padding-y);
+    .spinner-size(@h-input - 2 * @spinner-padding-y, 3px);
+    .spinner-color(#FFF);
+    .spinner-color(#FFF);
+  }
+}
+
+.btn-primary {
+  .text-white; 
+  .bg-primary; 
+  .rounded;
+
+  &:hover {.btn-hover(background-color, @color-primary);  }
+  .btn-spinner(@color-primary);
+}
+
+.btn-danger {
+  .text-white; 
+  .bg-danger; 
+  .rounded;
+
+  &:hover { .btn-hover(background-color, @color-danger); }
+  .btn-spinner(@color-danger);
+}
+
+.btn-outline-primary {
+  .text-primary; 
+  .border; 
+  .border-solid; 
+  .border-primary; 
+  .rounded; 
+
+  &:hover { .btn-hover(color, @color-primary); .btn-hover(border-color, @color-primary); background-color: rgba(@color-primary, 10%); }
+}
+
+.btn-outline-danger {
+   .text-danger; 
+   .border; 
+   .border-solid; 
+   .border-danger; 
+   .rounded; 
+   
+   &:hover { .btn-hover(color, @color-danger); .btn-hover(border-color, @color-danger); background-color: rgba(@color-danger, 10%); }
+}

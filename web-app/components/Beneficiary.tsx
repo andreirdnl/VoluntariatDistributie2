@@ -6,7 +6,7 @@ type external = {
     item: State["item"][keyof State["item"]];
   };
   
-  export const Beneficiar: view<external> = ({
+  export const Beneficiary: view<external> = ({
     item = observe.item[prop.name],
   }: props) => {
     return (

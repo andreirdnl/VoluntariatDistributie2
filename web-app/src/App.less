@@ -1,0 +1,16 @@
+@import (inline) "../node_modules/ve-ui-theme/dist/base.css";  
+@import (reference) "../node_modules/ve-ui-theme/dist/utilities.less";      
+@import (reference) "../node_modules/ve-ui-theme/dist/mixins.less";  
+@import "./styles/tooltip.less";   
+
+#root { .h-full;  }
+html  { max-height: 100%; }
+body  { .border-box; min-height: -webkit-fill-available; }
+
+html, body { 
+   .h-full;
+   .overflow-hidden; // this removes the scroll overflow behavior on mobile (including pull to refresh)
+   -webkit-overflow-scrolling: touch; 
+   background-color: #f7f7f7;
+}
+

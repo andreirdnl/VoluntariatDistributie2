@@ -1,0 +1,50 @@
+.spinner,
+.line {
+  position: absolute;
+}
+@keyframes spinner-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.line {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  border-style: solid;
+  border-radius: 50%;
+  animation: spinner-anim 1s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
+}
+.line-1 {
+  animation-delay: -0.55s;
+}
+.line-2 {
+  animation-delay: -0.3s;
+}
+.line-3 {
+  animation-delay: -0.05s;
+}
+.primary [data-ui="SpinnerLine"] {
+  border-color: #218BCB;
+  border-color: #218BCB transparent transparent transparent;
+}
+.white [data-ui="SpinnerLine"] {
+  border-color: #FFF;
+  border-color: #FFF transparent transparent transparent;
+}
+.danger [data-ui="SpinnerLine"] {
+  border-color: #B62537;
+  border-color: #B62537 transparent transparent transparent;
+}
+.muted [data-ui="SpinnerLine"] {
+  border-color: #D5D5D5;
+  border-color: #D5D5D5 transparent transparent transparent;
+}
+.secondary [data-ui="SpinnerLine"] {
+  border-color: #999999;
+  border-color: #999999 transparent transparent transparent;
+}

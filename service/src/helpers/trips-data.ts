@@ -1,12 +1,12 @@
 import _ from "lodash";
 import donations from "../resources/donations.json";
-import donators from "../resources/donators.json";
-import recipients from "../resources/recipients.json";
+import donors from "../resources/donors.json";
+import beneficiaries from "../resources/beneficiaries.json";
 
 const result = _.range(10).map((index) => {
   return {
-    donator: donators[index],
-    recipient: recipients[index],
+    donor: donors[index],
+    beneficiary: beneficiaries[index],
     donation: donations[index],
   };
 });

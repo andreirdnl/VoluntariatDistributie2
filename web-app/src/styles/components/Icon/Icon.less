@@ -1,0 +1,36 @@
+@import (reference) "../../../../node_modules/ve-ui-theme/dist/utilities.less";
+
+.icon {
+  display: inline-block;
+  svg {
+    fill: currentColor;
+  }
+	&, & svg {
+		width: 16px;
+		height: 16px;
+		vertical-align: top;
+	}
+}
+
+&.icon-muted 			{ .text-muted}
+&.icon-primary 		{ .text-primary}
+&.icon-white 			{ color: #FFF }
+&.icon-body 			{ .text-body }
+&.icon-background { .text-background}
+&.icon-secondary	{ .text-secondary}
+&.icon-danger 		{ .text-danger} 
+
+.icon-size(@value) {
+  &, & svg {
+    width: @value;
+    height: @value;
+  } 
+}
+
+.icon-xs  { .icon-size(@icon-xs); }
+.icon-sm  { .icon-size(@icon-sm); }
+.icon-md  { .icon-size(@icon-md); }
+.icon-lg  { .icon-size(@icon-lg); }
+.icon-xl  { .icon-size(@icon-xl); }
+.icon-xxl { .icon-size(@icon-xxl); }
+ 

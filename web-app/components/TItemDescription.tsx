@@ -1,6 +1,4 @@
-import { Donator } from './Donator'
-import { Beneficiar } from './Beneficiar'
-import { Donatie } from './Donatie'
+import { Beneficiary, Donor, Donation } from './'
   
   export const TItemDescription: view = ({
       finishedItem = update.finishedItem
@@ -8,11 +6,11 @@ import { Donatie } from './Donatie'
     return (
       <div className="itemDescription">
         <div className="people">
-          <Donator />
+          <Donor />
           <img src='' />
-          <Beneficiar />
+          <Beneficiary />
         </div>
-        <Donatie />
+        <Donation />
         <button className="accept" onClick={()=>finishedItem.set('das')}>{`Accepta Cursa >`}</button>
       </div>
     )

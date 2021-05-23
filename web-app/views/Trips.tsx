@@ -1,13 +1,13 @@
-import { Table } from '../components/Table'
-import { LocationMap } from '../components/LocationMap'
-import { Multumim } from './Multumim'
+import { LocationMap, Table, Navbar } from '../components'
+import { TripConfirmationView } from './TripConfirmation'
   
-  export const CurseDisponibileView: view = ({
+  export const TripsView: view = ({
     finishedItem = observe.finishedItem,
   }) => {
     return (
-      finishedItem ? <Multumim item = {finishedItem}/> :
+      finishedItem ? <TripConfirmationView item = {finishedItem}/> :
       <div>
+        <Navbar />
         <div className="pageTitle">Curse Disponibile</div>
         <div className="pageTitleInfo">Urmatoarele curse sunt disponibile pentru a livra donatii</div>
         <div className="container">

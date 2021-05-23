@@ -1,0 +1,63 @@
+.icon {
+  display: inline-block;
+}
+.icon svg {
+  fill: currentColor;
+}
+.icon,
+.icon svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+}
+.icon-muted {
+  color: #D5D5D5;
+}
+.icon-primary {
+  color: #218BCB;
+}
+.icon-white {
+  color: #FFF;
+}
+.icon-body {
+  color: #444444;
+}
+.icon-background {
+  color: #F4F4F4;
+}
+.icon-secondary {
+  color: #999999;
+}
+.icon-danger {
+  color: #B62537;
+}
+.icon-xs,
+.icon-xs svg {
+  width: 8px;
+  height: 8px;
+}
+.icon-sm,
+.icon-sm svg {
+  width: 16px;
+  height: 16px;
+}
+.icon-md,
+.icon-md svg {
+  width: 24px;
+  height: 24px;
+}
+.icon-lg,
+.icon-lg svg {
+  width: 32px;
+  height: 32px;
+}
+.icon-xl,
+.icon-xl svg {
+  width: 48px;
+  height: 48px;
+}
+.icon-xxl,
+.icon-xxl svg {
+  width: 64px;
+  height: 64px;
+}
