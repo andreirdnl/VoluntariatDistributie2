@@ -13,7 +13,9 @@ const app = engine({
     details: [],
     finishedItem: null,
     dataSet: null,
-    filterBar:{option0:true,option1:true,option2:true}
+    filterBar:{option0:true,option1:true,option2:true},
+    dateSort: 'none',
+    distanceSort: 'none'
   },
   use: [
     render(<App />, "#app", {

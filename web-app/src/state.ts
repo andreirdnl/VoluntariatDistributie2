@@ -8,4 +8,6 @@ export type State = {
   finishedItem: {}
   dataSet: []
   filterBar: {}
+  dateSort: string
+  distanceSort: string
 };
