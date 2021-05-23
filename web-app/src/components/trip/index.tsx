@@ -10,6 +10,8 @@ export const Trip: view = ({
   index = prop.itemIndex
 }) => {
   const {donator,recipient,donation} = item
+  if(getDetails == undefined)
+    setDetails.set(false)
   return (
     <div data-ui="Trip" aria-expanded={getDetails}  className={style.trip} >
       <div className={style.summary} >
@@ -20,8 +22,8 @@ export const Trip: view = ({
           <div className={style.sidetrack}>3 km</div>
           <div role="cell">
             { getDetails 
-              ? <button className={style2.outline} onClick={()=>setDetails.set(!getDetails)}>Inchide</button>
-              : <button className={style2.button} onClick={()=>setDetails.set(!getDetails)}>Detalii</button>
+              ? <button className={style2.outline} onClick={()=>setDetails.set(false)}>Inchide</button>
+              : <button className={style2.button} onClick={()=>setDetails.set(true)}>Detalii</button>
             }
           </div>
         </div>
