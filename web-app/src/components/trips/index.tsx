@@ -67,10 +67,10 @@ export const Table: view = ({
           <li className={style.col1}>Donator</li>
           <li className={style.col2}>Beneficiar</li>
           <li className={style.col3} aria-sort={getDateSort} onClick={()=>dateSort(getDateSort)}>
-            Adaugat <SVGArrow />
+            Adaugat {['ascending', 'descending'].includes(getDateSort) ? <SVGArrow />: ''}
           </li>
           <li className={style.col4} aria-sort={getDistanceSort} onClick={()=>distanceSort(getDistanceSort)}>
-            Abatere traseu
+            Abatere traseu {['ascending', 'descending'].includes(getDistanceSort) ? <SVGArrow />: ''}
           </li>
       </ul>
       <div data-ui="Trips--List" className={style.trips}>
