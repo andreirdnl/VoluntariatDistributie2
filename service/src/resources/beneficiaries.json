@@ -4,7 +4,7 @@
     "email": "Lioara.Ungureanu0@gmail.com",
     "phone": "0765823582",
     "streetAddress": "Bulevardul Gheorghiu 718",
-    "city": "Shreveport",
+    "city": "Izvorani",
     "imageUrl": "http://placeimg.com/400/400/people",
     "ngoName": "Salvati copiii",
     "neededProducts": ["pc"]
@@ -14,7 +14,7 @@
     "email": "Petrior58@yahoo.com",
     "phone": "0707697629",
     "streetAddress": "Aleea Chirila 457",
-    "city": "Sierra Vista",
+    "city": "Caracal",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
@@ -22,23 +22,23 @@
     "email": "Zamfir.NastaseSr.@yahoo.com",
     "phone": "0774579880",
     "streetAddress": "Intrarea Niculae 2369",
-    "city": "St. Peters",
+    "city": "Drobeta Turrnu Severin",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
     "name": "Aurica Milea",
     "email": "Aurica.Milea9@gmail.com",
     "phone": "0771874881",
-    "streetAddress": "Aleea Ignacio 28621",
-    "city": "Lawrence",
+    "streetAddress": "Str. Sperantei nr 158",
+    "city": "Ploiesti, Str. Sperantei",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
     "name": "Lelia Mihai",
     "email": "Lelia72@yahoo.com",
     "phone": "0721581250",
-    "streetAddress": "Bulevardul Serenity 60614",
-    "city": "Smyrna",
+    "streetAddress": "Strada Melcilor",
+    "city": "Buzau",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
@@ -46,7 +46,7 @@
     "email": "Ionela_Dumitrescu@yahoo.com",
     "phone": "0783715066",
     "streetAddress": "Bulevardul Iosif 8967",
-    "city": "Wilmington",
+    "city": "Curtea de Arges",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
@@ -54,7 +54,7 @@
     "email": "Corneliu_Coman@yahoo.com",
     "phone": "0727401726",
     "streetAddress": "Bulevardul Israel 654",
-    "city": "Columbus",
+    "city": "Vaslui",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
@@ -62,7 +62,7 @@
     "email": "Adelin36@hotmail.com",
     "phone": "0797096462",
     "streetAddress": "Intrarea Pana 4048",
-    "city": "Meriden",
+    "city": "Husi",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
@@ -70,15 +70,15 @@
     "email": "Ruxandra.Olariu34@gmail.com",
     "phone": "0734525952",
     "streetAddress": "Intrarea Clinton 191",
-    "city": "Gilbert",
+    "city": "Targu Frumos",
     "imageUrl": "http://placeimg.com/400/400/people"
   },
   {
     "name": "Fabia Toader",
     "email": "Fabia_Toader38@hotmail.com",
     "phone": "0759971238",
-    "streetAddress": "Bulevardul Lilly 74312",
-    "city": "Spokane",
+    "streetAddress": "Strada Pomilor",
+    "city": "Urziceni",
     "imageUrl": "http://placeimg.com/400/400/people"
   }
 ]

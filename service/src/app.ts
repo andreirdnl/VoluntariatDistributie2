@@ -10,7 +10,7 @@ const app = express();
 // Express configuration
 app.set("port", process.env.PORT || 3000);
 app.use(bodyParser.json());
-
+app.use(express.static(path.join(__dirname, "..", "public")));
 /**
  * API routes.
  */
