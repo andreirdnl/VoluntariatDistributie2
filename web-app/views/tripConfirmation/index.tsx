@@ -1,6 +1,6 @@
-  import { Donor } from '../components/Donor'
-  import { Beneficiary } from '../components/Beneficiary'
-  import { LocationMap } from '../components/LocationMap'
+  import { Donor } from '../../src/components/Donor'
+  import { Beneficiary } from '../../src/components/Beneficiary'
+  import { LocationMap } from '../../src/components/LocationMap'
   
   export const TripConfirmationView: view = ({
     data = observe.finishedItem,

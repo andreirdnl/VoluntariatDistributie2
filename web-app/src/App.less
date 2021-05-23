@@ -2,6 +2,7 @@
 @import (reference) "../node_modules/ve-ui-theme/dist/utilities.less";      
 @import (reference) "../node_modules/ve-ui-theme/dist/mixins.less";  
 @import "./styles/tooltip.less";   
+@import "./styles/humbler.less";   
 
 #root { .h-full;  }
 html  { max-height: 100%; }
@@ -9,8 +10,13 @@ body  { .border-box; min-height: -webkit-fill-available; }
 
 html, body { 
    .h-full;
-   .overflow-hidden; // this removes the scroll overflow behavior on mobile (including pull to refresh)
-   -webkit-overflow-scrolling: touch; 
+   .font-body;
    background-color: #f7f7f7;
 }
 
+svg {
+   fill: currentColor;
+}
+
+h3 { .text-primary; .font-body; .font-normal; font-weight: 600; font-size: 16px; line-height: 22px; }
+h4 { .font-body; .font-normal; font-size: 15px; line-height: 20px; }

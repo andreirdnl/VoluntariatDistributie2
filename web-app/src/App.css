@@ -770,6 +770,7 @@ html {
   font-size: 12px;
   --font-size: 'h6';
   font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFF;
   font-style: normal;
@@ -930,6 +931,18 @@ html {
     opacity: 1;
   }
 }
+.text-primary {
+  color: #D05168;
+}
+.text-secondary {
+  color: #999;
+}
+.font-body {
+  font-family: 'Open Sans', sans-serif;
+}
+.bg-primary {
+  background-color: #D05168;
+}
 #root {
   height: 100%;
 }
@@ -945,7 +958,27 @@ body {
 html,
 body {
   height: 100%;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #f7f7f7;
+}
+svg {
+  fill: currentColor;
+}
+h3 {
+  color: #218BCB;
+  color: #D05168;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
 }

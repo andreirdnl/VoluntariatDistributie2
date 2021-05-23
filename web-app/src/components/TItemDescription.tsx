@@ -1,4 +1,4 @@
-import { Beneficiary, Donor, Donation } from './'
+import { Beneficiary, Donor, Donation } from '.'
   
   export const TItemDescription: view = ({
       finishedItem = update.finishedItem,

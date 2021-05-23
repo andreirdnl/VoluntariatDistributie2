@@ -1,0 +1,73 @@
+.navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.navbar [role="group"] {
+  padding-right: 20px;
+}
+.logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.profile {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: right;
+}
+.avatar {
+  width: 54px;
+  height: 54px;
+  box-sizing: content-box;
+  border: 4px solid #fff;
+  overflow: hidden;
+  border-radius: 9999px;
+}
+.name {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.actions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.actions a {
+  text-decoration: none;
+  color: #444444;
+}
+.actions a:hover {
+  color: #218BCB;
+  color: #D05168;
+}
+.actions li + li {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid #ccc;
+}
