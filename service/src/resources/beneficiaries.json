@@ -6,69 +6,87 @@
     "streetAddress": "Bulevardul Gheorghiu 718",
     "city": "Izvorani",
     "ngoName": "Salvati copiii",
-    "neededProducts": ["pc"]
+    "neededProducts": ["calculator", "birou"]
   },
   {
     "name": "Petrișor Muresan Sr.",
     "email": "Petrior58@yahoo.com",
     "phone": "0707697629",
     "streetAddress": "Aleea Chirila 457",
-    "city": "Caracal"
+    "city": "Caracal",
+    "ngoName": "Protejati copiii",
+    "neededProducts": ["canapea", "fotoliu", "masa"]
   },
   {
     "name": "Zamfir Nastase Sr.",
     "email": "Zamfir.NastaseSr.@yahoo.com",
     "phone": "0774579880",
     "streetAddress": "Intrarea Niculae 2369",
-    "city": "Drobeta Turrnu Severin"
+    "city": "Drobeta Turnu Severin",
+    "ngoName": "Fa Bine",
+    "neededProducts": ["calculator"]
   },
   {
     "name": "Aurica Milea",
     "email": "Aurica.Milea9@gmail.com",
     "phone": "0771874881",
     "streetAddress": "Str. Sperantei nr 158",
-    "city": "Ploiesti, Str. Sperantei"
+    "city": "Ploiesti, Str. Sperantei",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["telefon", "aparat foto"]
   },
   {
     "name": "Lelia Mihai",
     "email": "Lelia72@yahoo.com",
     "phone": "0721581250",
     "streetAddress": "Strada Melcilor",
-    "city": "Buzau"
+    "city": "Buzau",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["birou", "scaun"]
   },
   {
     "name": "Ionela Dumitrescu",
     "email": "Ionela_Dumitrescu@yahoo.com",
     "phone": "0783715066",
     "streetAddress": "Bulevardul Iosif 8967",
-    "city": "Curtea de Arges"
+    "city": "Curtea de Arges",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["telefon mobil"]
   },
   {
     "name": "Corneliu Coman",
     "email": "Corneliu_Coman@yahoo.com",
     "phone": "0727401726",
     "streetAddress": "Bulevardul Israel 654",
-    "city": "Vaslui"
+    "city": "Vaslui",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["birou", "scaun"]
   },
   {
     "name": "Adelin Danila",
     "email": "Adelin36@hotmail.com",
     "phone": "0797096462",
     "streetAddress": "Intrarea Pana 4048",
-    "city": "Husi"
+    "city": "Husi",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["igiena orala"]
   },
   {
     "name": "Ruxandra Olariu",
     "email": "Ruxandra.Olariu34@gmail.com",
     "phone": "0734525952",
     "streetAddress": "Intrarea Clinton 191",
-    "city": "Targu Frumos"
+    "city": "Targu Frumos",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["materiale sanitare de protectie"]
   },
   {
     "name": "Fabia Toader",
     "email": "Fabia_Toader38@hotmail.com",
     "phone": "0759971238",
     "streetAddress": "Strada Pomilor",
-    "city": "Urziceni"
+    "city": "Urziceni",
+    "ngoName": "Salvati copiii",
+    "neededProducts": ["rechizite"]
   }
 ]
