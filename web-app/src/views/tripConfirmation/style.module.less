@@ -1,2 +1,18 @@
 @import (reference) '../../../node_modules/ve-ui-theme/dist/utilities.less'; 
 @import (reference) '../../styles/humbler.less';  
+
+.confirmation { .py-64; .text-center; }
+.confirmation h1 { .text-primary; }
+
+.summary    { .mx-auto; .mt-20; .font-light; max-width: 800px;  font-size: 20px; line-height: 160%;;}
+.summary b  { font-weight: 400; .text-primary; }
+
+.facts { .mt-24; .inline-block; .p-24; .rounded; border: 1px solid #ccc; }
+.facts small { .block; .mb-4;font-size: 14px; letter-spacing: 1px;  .uppercase; .text-secondary;  }
+
+.people { .mx-auto; .mt-32; .mb-48; .flex; .flex-no-wrap; .justify-center }
+
+.people [data-ui="Donor"],
+.people [data-ui="Beneficiary"] { min-width:400px; .mt-48; .bg-white; .rounded; }
+
+.people > svg { margin: 90px 32px 0 32px; opacity: 0.15;}
