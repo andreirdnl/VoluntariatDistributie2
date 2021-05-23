@@ -12,7 +12,8 @@ const app = engine({
     },
     details: [],
     finishedItem: null,
-    dataSet: null
+    dataSet: null,
+    filterBar:{option0:true,option1:true,option2:true}
   },
   use: [
     render(<App />, "#app", {

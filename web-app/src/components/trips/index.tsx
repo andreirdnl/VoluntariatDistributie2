@@ -5,7 +5,11 @@ import style from './style.module.css'
 
 export const Table: view = ({
   dataSet = observe.dataSet,
+  filterOptions = observe.filterBar
 }) => {
+  const {option0, option1, option2} = filterOptions
+  const opArr = [option0, option1, option2]
+  const filterData = dataSet.filter(f=>opArr[f.donation.sizeType])
   return (
     <>
       <ul data-ui="Trips--List" className={style.header}>
@@ -20,7 +24,7 @@ export const Table: view = ({
       </ul>
       <div data-ui="Trips--List" className={style.trips}>
         {
-          dataSet.map(i=>
+          filterData.map(i=>
           <Trip 
             key={dataSet.indexOf(i)} 
             itemIndex={dataSet.indexOf(i)} 

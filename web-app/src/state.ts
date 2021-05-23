@@ -7,4 +7,5 @@ export type State = {
   details: []
   finishedItem: {}
   dataSet: []
+  filterBar: {}
 };
