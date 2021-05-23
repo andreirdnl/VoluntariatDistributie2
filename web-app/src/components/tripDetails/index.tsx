@@ -7,7 +7,7 @@ import style2 from '../../styles/button.module.css'
       finishedItem = update.finishedItem,
       data = observe.dataSet[prop.index]
   }) => {
-    const {donor,beneficiary,donation} = data
+    const {donor,beneficiary,donation, trip} = data
     return (
       <div data-ui="TripDetails" className={style.details}>
         <div role="row">
@@ -19,7 +19,7 @@ import style2 from '../../styles/button.module.css'
             <Donation donation={donation}/>
           </div>
           <div role="cell" className={style.col3}>
-            <LocationMap/>
+            <LocationMap trip={trip}/>
           </div>
         </div>
         <div className={style['button-wrapper']}>
