@@ -5,13 +5,16 @@ import { TItemDescription as TableItemDescription } from './TItemDescription'
   export const TItem: view = ({
     getDetails = observe.details[prop.itemIndex],
     setDetails = update.details[prop.itemIndex],
+    item = observe.dataSet[prop.itemIndex],
+    index = prop.itemIndex
   }) => {
+    const {donator,recipient,donation} = item
     return (
       <div className="itemContainer">
         <div className="tableItem">
-          <From />
+          <From donator={donator} donation={donation}/>
           <img src='' />
-          <To />
+          <To recipient={recipient}/>
           <div className="when">
             <div className="whenTitle">Adaugat</div>
             <div className="whenValue">14 mai</div>
@@ -22,7 +25,7 @@ import { TItemDescription as TableItemDescription } from './TItemDescription'
           </div>
           <button className="moreDetails" onClick={()=>setDetails.set(!getDetails)}>Vezi Cursa</button>
         </div>
-        {getDetails&& <TableItemDescription />}
+        {getDetails&& <TableItemDescription index={index}/>}
       </div>
     )
   };

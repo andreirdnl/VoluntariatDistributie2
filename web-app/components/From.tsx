@@ -1,14 +1,20 @@
-type external = {
-    name: keyof State["item"];
-  };
-  
-  type props = {
-    item: State["item"][keyof State["item"]];
-  };
-  
-  export const From: view<external> = ({
-    item = observe.item[prop.name],
-  }: props) => {
-    return <div>From</div>;
+  export const From: view = ({
+    donator = prop.donator,
+    donation = prop.donation
+  }) => {
+    return (
+      <div className="donator">
+        <div className="orasDonator">{donator.city}</div>
+        <div className="detaliiDonator">
+          <div className="imgDonatie">
+            <img src={donation.images[0]} />
+          </div>
+          <div className="desc">{donation.description}</div>
+          <div className="categorie">{donation.productType}</div>
+          <div className="sizeType">{donation.sizeType}</div>
+          <div className="weightType">{donation.weightType}</div>
+        </div>
+      </div>
+    )
   };
   

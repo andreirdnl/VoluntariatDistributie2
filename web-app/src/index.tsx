@@ -11,7 +11,8 @@ const app = engine({
       b: "this is b",
     },
     details: [],
-    finishedItem: null
+    finishedItem: null,
+    dataSet: null
   },
   use: [
     render(<App />, "#app", {

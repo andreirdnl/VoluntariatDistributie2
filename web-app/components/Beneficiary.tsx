@@ -1,28 +1,21 @@
-type external = {
-    name: keyof State["item"];
-  };
-  
-  type props = {
-    item: State["item"][keyof State["item"]];
-  };
-  
-  export const Beneficiary: view<external> = ({
-    item = observe.item[prop.name],
-  }: props) => {
+  export const Beneficiary: view = ({
+    beneficiar = prop.beneficiar
+  }) => {
+    const {name, email, phone, streetAddress, ngoName, neededProducts, imageUrl} = beneficiar
     return (
       <>
         <div className="beneficiarTitle">Beneficiar</div>
         <div className="beneficiar">
             <div className="avatar">
-                <img src="https://picsum.photos/50/50" />
+                <img src={imageUrl} />
             </div>
             <div className="beneficiarDetails">
-                <div className="name">Stefan Bulescu</div>
-                <div className="email">gradinita31.urziceni@gmailcom</div>
-                <div className="phone">0742556198</div>
-                <div className="address">Urziceni, Aleea Invataturii, nr 7</div>
-                <div className="ong">Salvati Gradinitele</div>
-                <div className="nevoi">Calculator</div>
+                <div className="name">{name}</div>
+                <div className="email">{email}</div>
+                <div className="phone">{phone}</div>
+                <div className="address">{streetAddress}</div>
+                <div className="ong">{`ONG: ${ngoName}`}</div>
+                <div className="nevoi">{`nevoi: ${neededProducts.map(need=>need)}`}</div>
             </div>
         </div>
       </>
