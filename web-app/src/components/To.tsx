@@ -3,7 +3,6 @@ import style from './trip/style.module.css'
 export const To: view = ({
   recipient = prop.recipient,
 }) => {
-  console.log('recipient',recipient.neededProducts)
   return (
     <div data-ui="To" className={style.person} > 
       <h3>{recipient.city}, {recipient.streetAddress}</h3>

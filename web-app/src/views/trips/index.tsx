@@ -13,7 +13,6 @@ export const TripsView: view = ({
   axios.get(`http://localhost:3000/api/trips`)
       .then(res => {
         setData.set(res.data)
-        console.log(res.data)
       })
   if(!getData){
     //setData.set(initDataSet())

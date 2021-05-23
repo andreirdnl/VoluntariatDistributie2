@@ -4,7 +4,6 @@ export const From: view = ({
   donator = prop.donator,
   donation = prop.donation
 }) => {
-  console.log('dsadas',donator)
   const weights = ['1-5', '5-10', '10-30']
   return (
     <div data-ui="From" className={style.person} > 
