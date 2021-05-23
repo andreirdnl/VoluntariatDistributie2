@@ -5,7 +5,6 @@
   export const TripConfirmationView: view = ({
     data = observe.finishedItem,
   }) => {
-    console.log(data)
     const {donator, recipient, donation} = data
     const {name, city, streetAddress} = donator
     const thankYouMessage = 

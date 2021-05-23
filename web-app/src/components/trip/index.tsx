@@ -10,7 +10,6 @@ export const Trip: view = ({
   index = prop.itemIndex
 }) => {
   const {donor,beneficiary,donation, trip} = item
-  console.log('tralala',item)
   if(getDetails == undefined)
     setDetails.set(false)
   return (
