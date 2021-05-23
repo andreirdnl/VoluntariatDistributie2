@@ -6,8 +6,8 @@
     data = observe.finishedItem,
   }) => {
     console.log(data)
-    const {donator, recipient, donation} = data
-    const {name, city, streetAddress} = donator
+    const {donor, beneficiary, donation, trip} = data
+    const {name, city, streetAddress} = donor
     const thankYouMessage = 
     `iti multumim ca te-ai oferit sa transporti ${donation.name}, de la ${name} din ${city}, ${streetAddress}`
     return (
@@ -16,11 +16,11 @@
             <div className="mDesc">{thankYouMessage}</div>
             <div className="Card">In medie 60% din donatii gasesc un livrator</div>
             <div className="people">
-                <Donor donator={donator}/>
+                <Donor donator={donor}/>
                 <img src='' />
-                <Beneficiary beneficiar={recipient}/>
+                <Beneficiary beneficiar={beneficiary}/>
             </div>
-            <LocationMap />
+            <LocationMap trip={trip}/>
         </div>
     )
   };

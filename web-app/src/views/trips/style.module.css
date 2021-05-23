@@ -1,11 +1,12 @@
 .hero {
-  padding-top: 48px;
+  padding-top: 12px;
   height: 320px;
   background-color: #ffeff1;
   border-bottom: 1px solid #ffd6db;
   position: relative;
 }
 .hero h1 {
+  margin-top: 24px;
   font-weight: 400;
   color: #218BCB;
   color: #D05168;
@@ -20,7 +21,7 @@
 .banner {
   width: 360px;
   position: absolute;
-  bottom: -123px;
+  bottom: -132px;
   right: 30px;
 }
 .banner img {

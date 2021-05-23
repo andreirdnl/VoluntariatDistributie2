@@ -1,6 +1,6 @@
 import style from './style.module.css'
-import { ReactComponent as SVGLogo } from '../../assets/logo.svg' 
-import logo from "../../assets/avatar.png"
+import { ReactComponent as SVGLogo } from '../../assets/doli-logo-v2b.svg' 
+import avatar from "../../assets/avatar.png"
 
 export const Navbar: view = ({
 }) => {
@@ -17,7 +17,7 @@ export const Navbar: view = ({
           </ul>
         </div>
         <div className={style.avatar}>
-          <img src={logo} alt="avatar"/>
+          <img src={avatar} alt="avatar"/>
         </div>
       </div>
     </nav>
