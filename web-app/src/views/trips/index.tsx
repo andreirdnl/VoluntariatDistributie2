@@ -22,7 +22,7 @@ export const TripsView: view = ({
   return (
     finishedItem ? <TripConfirmationView item = {finishedItem}/> :
     <div > 
-      <div className={style.hero}>
+      <div data-ui="TripConfirmationView" className={style.hero}>
         <div className="wrapper">
           <Navbar />
           <h1>Curse disponibile</h1>
@@ -30,10 +30,10 @@ export const TripsView: view = ({
             Ai masina si vrei sa faci o fapta buna?<br/>
             Ridica o donatie pe care sa o livrezi celor nevoiasi.
           </p>
-          <FilterBar />
           <div className={style.banner}>
             <img src={banner} />
           </div>
+          <FilterBar />
         </div>
       </div>
       <div className="wrapper">
