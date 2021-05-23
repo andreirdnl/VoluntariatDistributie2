@@ -1,0 +1,4 @@
+.trips > div:nth-child(2n) {
+  border-radius: 8px;
+  background-color: #FBFBFB;
+}

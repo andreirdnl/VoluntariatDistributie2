@@ -22,7 +22,7 @@ export const initDataSet = () => {
           ]
         },
         "donation": {
-          "name": "3 calculatoare de ultima generatie",
+          "name": "Calculatoare i3, 8GB RAM",
           "description": "donez 3 calculatoare in stare perfecta, nefolosite!",
           "sizeType": 0,
           "weightType": 1,
@@ -53,7 +53,7 @@ export const initDataSet = () => {
           ]
         },
         "donation": {
-          "name": "3 calculatoare de ultima generatie",
+          "name": "Calculatoare i3, 8GB RAM",
           "description": "donez 3 calculatoare in stare perfecta, nefolosite!",
           "sizeType": 0,
           "weightType": 1,
@@ -84,7 +84,7 @@ export const initDataSet = () => {
           ]
         },
         "donation": {
-          "name": "3 calculatoare de ultima generatie",
+          "name": "Calculatoare i3, 8GB RAM",
           "description": "donez 3 calculatoare in stare perfecta, nefolosite!",
           "sizeType": 0,
           "weightType": 1,
@@ -115,7 +115,7 @@ export const initDataSet = () => {
           ]
         },
         "donation": {
-          "name": "3 calculatoare de ultima generatie",
+          "name": "Calculatoare i3, 8GB RAM",
           "description": "donez 3 calculatoare in stare perfecta, nefolosite!",
           "sizeType": 0,
           "weightType": 1,
@@ -146,7 +146,7 @@ export const initDataSet = () => {
           ]
         },
         "donation": {
-          "name": "3 calculatoare de ultima generatie",
+          "name": "Calculatoare i3, 8GB RAM",
           "description": "donez 3 calculatoare in stare perfecta, nefolosite!",
           "sizeType": 0,
           "weightType": 1,
