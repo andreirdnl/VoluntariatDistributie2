@@ -10,7 +10,7 @@ export const App: view = ({ greeting = observe.greeting }) => (
     <TripsView />
     <footer>
       <div role="group">
-        <b>Humbler</b> &nbsp;e un proiect <img src={seedy} /> sustinut de <img src={bine} />
+        <b>DoLi</b> &nbsp;e un proiect <img src={seedy} /> sustinut de <img src={bine} />
       </div>
     </footer>
   </>
