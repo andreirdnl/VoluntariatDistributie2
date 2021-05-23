@@ -1,4 +1,4 @@
-import { FilterBar } from '../filterBar'
+
 import { Trip } from '../'
 import { ReactComponent as SVGArrow } from '../../assets/arrow.svg' 
 import style from './style.module.css' 
@@ -8,7 +8,6 @@ export const Table: view = ({
 }) => {
   return (
     <>
-      <FilterBar />
       <ul data-ui="Trips--List" className={style.header}>
           <li className={style.col1}>Donator</li>
           <li className={style.col2}>Beneficiar</li>

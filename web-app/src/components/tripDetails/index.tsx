@@ -1,5 +1,6 @@
 import { Beneficiary, Donor, Donation, LocationMap } from '..'
 import style from './style.module.css' 
+import style2 from '../../styles/button.module.css'
 
   
   export const TripDetails: view = ({
@@ -21,7 +22,11 @@ import style from './style.module.css'
             <LocationMap/>
           </div>
         </div>
-        <button className="accept" onClick={()=>finishedItem.set(data)}>{`Accepta Cursa >`}</button>
+        <div className={style['button-wrapper']}>
+          <button className={style.button + ' ' + style2.button} onClick={()=>finishedItem.set(data)}>
+            Accepta Cursa
+          </button>
+        </div>
       </div>
     )
   };

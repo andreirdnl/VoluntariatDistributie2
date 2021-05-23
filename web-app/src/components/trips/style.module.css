@@ -1,8 +1,12 @@
+.trips {
+  padding-bottom: 64px;
+}
 .trips > div:nth-child(2n) {
   border-radius: 8px;
   background-color: #FBFBFB;
 }
 .header {
+  margin-top: 84px;
   padding-bottom: 12px;
   display: -webkit-box;
   display: -webkit-flex;

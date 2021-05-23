@@ -1,7 +1,7 @@
 declare namespace StyleModuleCssNamespace {
   export interface IStyleModuleCss {
+    banner: string;
     hero: string;
-    wrapper: string;
   }
 }
 

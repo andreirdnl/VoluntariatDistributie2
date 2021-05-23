@@ -1,7 +1,8 @@
-import { LocationMap, Table, Navbar } from '../../components'
+import { LocationMap, Table, FilterBar, Navbar } from '../../components'
 import { TripConfirmationView } from '../tripConfirmation'
 import { initDataSet } from '../../../mock/genMock'
 import style from './style.module.css'  
+import banner from "../../assets/banner.png"
   
 export const TripsView: view = ({
   finishedItem = observe.finishedItem,
@@ -14,16 +15,24 @@ export const TripsView: view = ({
   }
   return (
     finishedItem ? <TripConfirmationView item = {finishedItem}/> :
-    <div className={style.wrapper}> 
-      <Navbar />
+    <div > 
       <div className={style.hero}>
-        <h1>Curse disponibile</h1>
-        <p>
-          Ai masina si vrei sa faci o fapta buna?<br/>
-          Ridica o donatie pe care sa o livrezi celor nevoiasi.
-        </p>
+        <div className="wrapper">
+          <Navbar />
+          <h1>Curse disponibile</h1>
+          <p>
+            Ai masina si vrei sa faci o fapta buna?<br/>
+            Ridica o donatie pe care sa o livrezi celor nevoiasi.
+          </p>
+          <FilterBar />
+          <div className={style.banner}>
+            <img src={banner} />
+          </div>
+        </div>
       </div>
-      <Table data={getData}/>
+      <div className="wrapper">
+        <Table data={getData}/>
+      </div>
     </div>
   )
 };

@@ -31,10 +31,13 @@
 }
 .col3 {
   width: 33.333333%;
-  position: relative;
   background: #f6f6f6;
   border-radius: 4px;
+  position: relative;
   overflow: hidden;
+}
+.col3 img {
+  position: absolute;
 }
 .person,
 .donation {
@@ -90,4 +93,14 @@
 }
 .images {
   background-color: #B62537;
+}
+.button-wrapper {
+  margin-top: 20px;
+  padding-bottom: 8px;
+  margin-left: 33.3%;
+  padding-right: 16px;
+  width: 33.333333%;
+}
+.button {
+  width: 100%;
 }
